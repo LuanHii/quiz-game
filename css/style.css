@@ -1,3 +1,79 @@
-h1 {
-    color: red;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
+
+body {
+    background-color: #242940;
+    color: #fff
+}
+
+.hide {
+    display: none !important;
+}
+
+#main-title {
+    padding: 40px 0;
+    text-align: center;
+    background-color: #2D425A;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+}
+
+#score-container{
+    background-color: #CDDDE8;
+    color: #000;
+    text-align: center;
+    width: 300px;
+    margin: 50px auto;
+    padding: 25px;
+    border-radius: 25px;
+}
+
+#score-container p {
+    font-size-adjust: 14px;
+    margin: 20px 0;
+}
+
+#score-container #display-score{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#correct-answer{
+    font-weight: bold;
+    color: #40B576;
+}
+
+#questions-qty {
+    font-weight: bold;
+    color: #075EA4;
+}
+
+#restart {
+    background-color: #E78230;;
+    color: white;
+    font-weight: bold;
+    height: 50px;
+    border-radius: 25px;
+    border: 2px solid transparent;
+    width: 150px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+#restart:hover{
+    background-color: transparent;
+    border-color: #E78230;
+    color: #E78230;
+}
+
+
+
+
+

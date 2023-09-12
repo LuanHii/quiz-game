@@ -11,7 +11,7 @@
     <!--Titulo-->
     <h1 id="main-title">Quizz de programação</h1>
     <!--Score Board-->
-    <div id="score-container">
+    <div id="score-container" class="hide">
         <h2>Parabéns!!</h2>
         <p id="display-score"><span>90</span>%</p>
         <p>Você acertou <span id="correct-answer">0</span> de <span id="questions-qty">10</span> perguntas.</p>
@@ -20,11 +20,12 @@
 
     <!--Container de perguntas-->
     <div id="quiz-container">
-        <p id="question"><span id="question-number">1</span>- <span id="question-text">Qual o comando para escrever no console no JS?</span>
+        <p id="question">
+            <span id="question-number">1</span>- <span id="question-text">Qual o comando para escrever no console no JS?</span>
         </p>
         <div id="answers-box">
-            <button class="correct-answer"> <span class="btn-letter">A</span> <span class="question-answer">console.log(variavel)</span></button>
-            <button class="wrong-answer"> <span class="btn-letter">B</span> <span class="question-answer">print.log(variavel)</span></button>
+            <button > <span class="btn-letter">A</span> <span class="question-answer">console.log(variavel)</span></button>
+            <button > <span class="btn-letter">B</span> <span class="question-answer">print.log(variavel)</span></button>
             <button> <span class="btn-letter">C</span> <span class="question-answer">show_debug_message(variavel)</span></button>
             <button> <span class="btn-letter">D</span> <span class="question-answer">println(variavel)</span></button>
         </div>

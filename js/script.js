@@ -176,4 +176,14 @@ function hideOrShowQuiz() {
 }
 
 
+const restartBtn = document.querySelector("#restart");
+
+restartBtn.addEventListener("click", function(){
+  actualQuestion = 0;
+  points = 0;
+  hideOrShowQuiz();
+  init();
+});
+
+
 init();
